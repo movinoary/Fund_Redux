@@ -24,7 +24,7 @@ const Login = () => {
   return (
     <div className="w-auto flex justify-center bg-slate-600">
       <form className="login_form" onSubmit={e => handleSubmit(e)}>
-        <h1 className="text-8xl text-center mb-20">Login Here</h1>
+        <h1>Login Here</h1>
         <input
           type="text"
           placeholder="Name"
