@@ -23,7 +23,7 @@ const Login = () => {
 
   return (
     <div className="w-auto flex justify-center bg-slate-600">
-      <form className="login_form" onSubmit={e => handleSubmit(e)}>
+      <form onSubmit={e => handleSubmit(e)}>
         <h1>Login Here</h1>
         <input
           type="text"

@@ -14,10 +14,16 @@ const Logout = () => {
 
   return (
     <div>
-      <h1 className="user_name">
-        Welcome, <span>{user.name}</span>
+      <h1 class="text-8xl text-center mb-20">
+        Welcome,
+        <span class="bg-gradient-to-r from-blue-900 to-blue-300 bg-clip-text text-transparent">
+          {user.name}
+        </span>
       </h1>
-      <button className="logout_button" onClick={e => handleLogout(e)}>
+      <button
+        onClick={e => handleLogout(e)}
+        class="text-5xl text-center mb-20 bg-neutral-900"
+      >
         Logout
       </button>
     </div>
